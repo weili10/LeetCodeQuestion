@@ -12,6 +12,10 @@ A solution set is:
   [-1, 0, 1],
   [-1, -1, 2]
 ]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0be645b2351aba30fa5d713da8f541042c48cdb2
 '''
 
 class Solution(object):

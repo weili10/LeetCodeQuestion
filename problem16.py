@@ -9,6 +9,10 @@ each input would have exactly one solution.
 
     The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 '''
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0be645b2351aba30fa5d713da8f541042c48cdb2
 class Solution(object):
 	def threeSumClosest(self, nums, target):
 		"""
