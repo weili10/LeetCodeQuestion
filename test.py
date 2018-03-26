@@ -1,4 +1,4 @@
-from problem35 import Solution
+from problem67 import Solution
 
 class ListNode(object):
     def __init__(self, x):
@@ -14,5 +14,5 @@ l2.next.next = ListNode(4)
 sol = Solution()
 
 # print(sol.removeElement([2,2,3],2))
-print(sol.searchInsert([1,3,5,6],5))
+print(sol.addBinary("110","10"))
 
