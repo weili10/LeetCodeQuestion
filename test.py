@@ -1,4 +1,4 @@
-from problem67 import Solution
+from problem69 import Solution
 
 class ListNode(object):
     def __init__(self, x):
@@ -14,5 +14,5 @@ l2.next.next = ListNode(4)
 sol = Solution()
 
 # print(sol.removeElement([2,2,3],2))
-print(sol.addBinary("110","10"))
+print(sol.mySqrt(4))
 
