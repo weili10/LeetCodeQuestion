@@ -1,4 +1,4 @@
-from problem83 import Solution
+from problem88 import Solution
 
 class ListNode(object):
     def __init__(self, x):
@@ -14,11 +14,11 @@ l2.next.next.next = ListNode(3)
 l2.next.next.next.next = ListNode(3)
 sol = Solution()
 
-# print(sol.removeElement([2,2,3],2))
-# print(sol.deleteDuplicates(l2))
 
-l = sol.deleteDuplicates(l2)
-while l:
-    print(l.val)
-    l = l.next
+print(sol.merge([1,3,5,7,9],5,[2,4,6,8],4))
+
+# l = sol.deleteDuplicates(l2)
+# while l:
+#     print(l.val)
+#     l = l.next
 
