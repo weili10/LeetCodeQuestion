@@ -1,4 +1,4 @@
-from problem29 import Solution
+from problem30 import Solution
 
 class ListNode(object):
     def __init__(self, x):
@@ -26,4 +26,4 @@ def constructLinkedList(nodeList):
 
 
 sol = Solution()
-print(sol.divide(7,2))
+print(sol.findSubstring("lingmindraboofooowingdingbarrwingmonkeypoundcake",["fooo","barr","wing","ding","wing"]))
