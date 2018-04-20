@@ -1,4 +1,4 @@
-from problem31 import Solution
+from problem32 import Solution
 
 class ListNode(object):
     def __init__(self, x):
@@ -26,4 +26,4 @@ def constructLinkedList(nodeList):
 
 
 sol = Solution()
-print(sol.nextPermutation([1,3,2]))
+print(sol.longestValidParentheses("(()))())("))
