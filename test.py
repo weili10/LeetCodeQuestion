@@ -1,4 +1,4 @@
-from problem32 import Solution
+from problem33 import Solution
 
 class ListNode(object):
     def __init__(self, x):
@@ -26,4 +26,4 @@ def constructLinkedList(nodeList):
 
 
 sol = Solution()
-print(sol.longestValidParentheses("(()))())("))
+print(sol.search([4,5,6,7,0,1,2],3))
